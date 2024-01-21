@@ -32,10 +32,15 @@ const hobbie3 ='estudiar'
 const hobbies ='Mis hobbies son: '.concat(hobbie1,', ',hobbie2,', ',hobbie3,'.')
 console.log(hobbies)
 
-
+// Caracteres de escape
+//1. Escape alternativo
 const escapeAlternativo ="I'm Software Engineer"
+//2. Barra alternativa
 const escapeBarraInvertida ='I\'m Software Engineer'
+// TEmplate literals
 const escapeComillaInvertida =`I'm Software Engineer`
+
+// Escritura de estrings largos 
 
 const poema ='Las rosas son rojas,\n'+
 'Las violetas son azules,\n'+
